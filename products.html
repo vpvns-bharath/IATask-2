@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- header section starts -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="150px">
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="" >Products</a></li>
+                        <li><a href="" >Testimonials</a></li>
+                        <li><a href="" >Contact</a></li>
+                        <li><a href="" >Account</a></li>
+                    </ul>
+                    <ul id="main-menu">
+                        <li> <i class="fas fa-shopping-cart "></i></li>
+                        <li id="menu-bar" onclick="MenuToggle()"><i class="fas fa-bars " ></i></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+        
+<!-- header section ends -->
+
+<!-- product section starts -->
+    <div class="products">
+        <div class="small-container">
+            <h2>All Products</h2>
+            <div class="row">
+    
+                <div class="col-4">
+                    <a href="product-1.html"><img src="images/p1.jpg"></a>
+                    <h4>Black-Yellow T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>399.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-2.html"><img src="images/p5.png"></a>
+                    <h4>Black Trouser</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>559.00</p>
+                </div>
+    
+                <div class="col-4">
+                    <a href="product-3.html"><img src="images/p9.png"></a>
+                    <h4>Kookaburra Bat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt "></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>1150.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-4.html"><img src="images/p13.png"></a>
+                    <h4>Nike-Socks</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>450.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-5.html"><img src="images/p6.png"></a>
+                    <h4>Adidas Trouser</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>899.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-6.html"><img src="images/p14.png"></a>
+                    <h4>Sports-Socks</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>450.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-7.html"><img src="images/p2.png"></a>
+                    <h4>Blue-Shade T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>499.00</p>
+                </div>
+    
+                <div class="col-4">
+                    <a href="product-8.html"><img src="images/p10.png"></a>
+                    <h4>SunRidges Bat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt "></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>990.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-9.html"><img src="images/p3.png"></a>
+                    <h4>Nike T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>550.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-10.html"><img src="images/p7.png"></a>
+                    <h4>Fila Trouser</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>799.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-11.html"><img src="images/p11.png"></a>
+                    <h4>Graynichols Bat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt "></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>1539.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <a href="product-12.html"><img src="images/p15.png"></a>
+                    <h4>Puma Socks</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>599.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-13.html"><img src="images/p12.png"></a>
+                    <h4>MRF Bat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>1099.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-14.html"><img src="images/p8.png"></a>
+                    <h4>Black-white Trouser</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>750.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-15.html"><img src="images/p16.png"></a>
+                    <h4>Adidas-socks</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>650.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="product-16.html"><img src="images/p4.png"></a>
+                    <h4>Multi-Color T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><i class="fas fa-rupee-sign"></i>459.00</p>
+                </div>
+
+        
+            </div>
+        </div>
+    </div>
+<!-- product section ends -->
+
+<!-- contact section starts  -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="con-1">
+                    <img src="images/logo.png">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae mollitia earum.</p>
+                </div>
+                <div class="con-1 middle">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+                <div class="con-1">
+                    <img class="download" src="images/download.png">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- contact section ends -->
+
+    <script src="main.js"></script>
+</body>
+</html>
